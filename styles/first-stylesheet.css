@@ -1,4 +1,5 @@
 body {
+    font-family: 'Nothing You Could Do', cursive;
     background-color: lightblue;
     background-image:  url("https://www.goodfreephotos.com/albums/other-landscapes/waves-on-the-seashore-seascape.jpg");
 }
@@ -28,16 +29,8 @@ a {
   text-decoration: none;
 }
 
-h1:hover {
-  font-size: 300%;
-}
-
 a:visited {
   color:darkorange;
-}
-
-p:first-letter {
-  font: 400 100px/0.8 'Great Vibes', Helvetica, sans-serif;
 }
 
 p {
@@ -45,11 +38,11 @@ p {
   margin: 5em;
   letter-spacing: 3px;
   text-indent: 50px;
-  text-align:justify; 
+  text-align: justify; 
 }
 
 .first-paragraph {
-  text-decoration:underline; 
+  text-decoration: underline; 
   font-size: 150%;
 }
 
@@ -57,3 +50,18 @@ p {
   text-align: center;
   margin-bottom: 10em;
 }
+
+footer {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  font-size: .8rem;
+  line-height: .1rem;
+  padding 10px;
+  margin 10px 0px 0px 0px;
+}
+
+.contact-info {
+  text-align: left;
+}
+
