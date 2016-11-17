@@ -10,9 +10,16 @@ h1 {
   text-transform: uppercase;
 }
 
-h1:hover {
-  color: green;
-  animation: 2s ease 0s infinite pulse;
+#portfolio {
+  font-size: 2rem;
+  margin: 0 auto;
+  text-align: center;
+
+  transition: font-size 2s ease-in-out 1s;
+}
+
+#portfolio:hover {
+  font-size: 4rem;
 }
 
 h2 {
